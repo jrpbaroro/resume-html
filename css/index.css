@@ -1,0 +1,186 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#main-body {
+  background: #f7f6e7;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  height: 100%;
+  max-height: 100%;
+}
+
+/* header start */
+.main-header {
+  background: #f2a154;
+  /* background-image: url("http://images.ctfassets.net/sdlntm3tthp6/6YZth8G8bfywapVG328UYy/4abb5f1b53f32a8cc8d8624779f44be0/AXIE_Banner.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+  text-align: center;
+  padding: 1.8rem 2.5rem;
+}
+
+.header-name .full-name h1 {
+  margin: 0;
+  font-size: 6.5rem;
+  font-weight: 700;
+  width: 100%;
+  color: #f7f6e7;
+  pointer-events: none;
+}
+
+.header-row {
+  padding: 2.5rem 2rem;
+}
+
+.header-location-info,
+.header-contact-num {
+  border-right: 1px solid #e7e6e1;
+  color: #314e52;
+  line-height: 2.5rem;
+}
+
+.header-email {
+  color: #314e52;
+  line-height: 2.5rem;
+}
+
+.header-email .email-address > a {
+  color: #314e52;
+  text-decoration: none;
+}
+
+/* header end */
+
+/* resume body start */
+.resume-body-container,
+.main-info-container {
+  margin: 0;
+  padding: 0;
+}
+
+/* left aside start */
+.left-side {
+  background: #e7e6e1;
+  margin: 0;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.profile-container .profile-pic img {
+  border-radius: 100%;
+  width: 50%;
+}
+
+.side-info-container h3 {
+  color: #314e52;
+  padding-top: 1.25rem;
+  font-weight: 700;
+}
+
+.side-info-container hr {
+  border: none;
+  margin: 1rem auto;
+  width: 95%;
+}
+
+.side-info-container h5 {
+  color: #435560;
+  width: 80%;
+  margin: auto;
+}
+
+.side-info-container p {
+  color: #8f8f8f;
+  width: 65%;
+  margin: auto;
+  padding: 1.25rem 0.3rem;
+}
+
+/* left side end */
+
+/* main container info start */
+.main-info-container {
+  padding: 3%;
+}
+
+.main-info-container h3 {
+  color: #314e52;
+  padding: 1% 0;
+}
+
+/* .main-info-container h5 {
+  color: #435560;
+} */
+
+.main-info-container hr {
+  margin: 1.25rem auto;
+}
+
+.main-info-container .objective {
+  padding-bottom: 1.5rem;
+}
+
+.main-info-container .objective p {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  padding: 0 1.25rem;
+}
+
+.main-info-container .work-experience .exp-container,
+.main-info-container .skills-abilities .skill-ability-container {
+  font-size: 1.1rem;
+  line-height: 2.25rem;
+  padding: 0 1.25rem;
+}
+
+/* footer start */
+#main-footer {
+  background: #f2a154;
+  /* background-image: url("../pictures/axie-banner6.png"); */
+  text-align: center;
+  margin: 0;
+}
+
+#main-footer .container-fluid {
+  padding: 1% 15%;
+}
+
+#main-footer .download .btn {
+  margin: 20px 10px;
+}
+
+#main-footer .social-icon {
+  font-size: 2rem;
+  margin: 20px 15px;
+}
+
+#main-footer .social-icon:hover {
+  color: #f7f6e7;
+  transition: 0.5s;
+}
+
+#main-footer .gmail-mail {
+  color: #aa2b1d;
+}
+
+#main-footer .skype {
+  color: #00aff0;
+}
+
+#main-footer .viber-chat {
+  color: #665cac;
+}
+
+#main-footer .linkedin {
+  color: #0e76a8;
+}
+
+#main-footer p {
+  margin: 0;
+  color: #f7f6e7;
+  font-size: 0.9rem;
+}
